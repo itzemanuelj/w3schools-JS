@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Output</title>
+  </head>
+  <body>
+    <h1>JS Output</h1>
+    <h2>Using innerHTML</h2>
+    <p id="output">myfirst Javascript</p>
+    <script>
+      document.getElementById("output").innerHTML = 5 + 5;
+    </script>
+    <h2>Using document.write()</h2>
+    <script>
+      document.write(5 + 6);
+    </script>
+    <br />
+    <button type="button" onclick="document.write(5+7)">Try Me!</button>
+    <h2>Using window.alert()</h2>
+    <script>
+      window.alert(5 + 8);
+    </script>
+  </body>
+</html>
