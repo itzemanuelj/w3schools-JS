@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+// 5 JS Statements
+let x,y,z;
+x = 1;
+y = 2;
+z = x + y;
+print(z); 
