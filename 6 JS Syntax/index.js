@@ -48,7 +48,7 @@ const number = 1;
 /// JavaScript Comments
 
 /// hello world
-// Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing. It's also called placeholder or filler text. It's a convenient tool for mock-ups.
+/// Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing. It's also called placeholder or filler text. It's a convenient tool for mock-ups.
 
 /// JavaScript Identifiers / Names
 /// A letter (A-Z or a-z)
