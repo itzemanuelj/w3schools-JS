@@ -13,6 +13,7 @@ console.log(name);
 console.log(fname);
 
 /// JavaScript Numbers
+let a = 1;
 let aan = 1.2;
 
 /// Exponential Notation
