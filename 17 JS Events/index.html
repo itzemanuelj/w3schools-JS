@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events</title>
+    <script type="text/javascript" src="/17 JS Events/script.js"></script>
+  </head>
+  <h1>JavaScript Events</h1>
+  <body>
+    <h2>Common HTML Events</h2>
+    <p>onchange</p>
+    <p>onclick</p>
+    <p>onmouseover</p>
+    <p>onmouseout</p>
+    <p>onkeydown</p>
+    <p>onload</p>
+    <section>
+      <h2>onchange</h2>
+      Enter your name:
+      <input type="text" id="fname" />
+      <script>
+        document.getElementById("fname").onchange = function () {
+          upper();
+        };
+        function upper() {
+          var x = document.getElementById("fname");
+          x.value = x.value.toUpperCase();
+        }
+      </script>
+    </section>
+  </body>
+</html>
